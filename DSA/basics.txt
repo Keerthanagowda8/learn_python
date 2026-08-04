@@ -1,0 +1,98 @@
+Data Sturctures and Algorithm
+
+
+- Data
+    - data is a information either it maybe simple data like numberic,strings and boolean or huge data like
+        collections or multimedia data like images, audio and video
+
+=> Data Sturctures
+    - it is a way of organizing the data in a computers memory that can be used efficiently 
+    - divided in to two types
+        1. primitive
+            |- int
+            |- float
+            |- complex
+            |- string
+            |- boolean
+            |- char
+
+        2. non primitive
+            |- linear
+            |   |
+            |   |- static
+            |   |   |- arrays
+            |   |
+            |   |- dynamic
+            |       |- stack
+            |       |- queue
+            |       |- linkedlist
+            |   
+            |- non linear
+                |- trees
+                |- graphs
+
+            - in this multiple values or group of values is associated with single object or variable
+                eg: arrays,list,stact etc 
+
+            linear: in this the values are associated in a sequential manner one after another
+                -   in this while adding and removing the elements need to follow its own rules
+
+                eg:
+
+                1. stack
+
+                            |  D   |
+                            |  C   |
+                            |  B   |
+                            |  A   |
+                            |------|
+                
+                2. queue
+
+                    | D | 
+            
+            non linear ds: in this the elements or the values are arranged in random manner by following its own rules 
+                -   in this multiple valuse are arranged in a hirercial or non sequential manner
+                eg:
+
+                1. trees
+
+                        n1
+                       /  \
+                      n2   n3
+                      / \  / \
+                     n4 n5 n6 n7
+                    
+                3. graphs
+                    v1----v2
+                    |\    |\
+                    | \   | \
+                    |  \  |  v5
+                    |   \ | /
+                    v3---v4/
+                
+
+=> Algorithm
+    it is a set of rules or instructions to accomplish the task
+    1. recursive
+    2. searching tech
+    3. sorting tech
+    4. divide and conqure
+    5. brute force
+    6. dynamic programming
+    7. back tracking Algorithm
+
+
+=> common opertaions in DS 
+    - insertion:
+        it is used to add new element to the respective DS
+    - deletion:
+        it is used to remove the existing element present in a respective DS
+    - searching:
+        it is used to search for specific element in DS
+    - sorting:
+        it is used to rearrange the elements either in accending or decending order
+    - traversing:
+        it is used to fetch each element present in DS
+    - merging:
+        it is used to merge two DS
